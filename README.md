@@ -21,19 +21,22 @@ Este proyecto demuestra un pipeline básico de Extracción, Transformación y Ca
 * **Git & GitHub:** Control de versiones y alojamiento del repositorio.
 
 ## 📂 Estructura del Proyecto
+
+```text
 data_collector/
-├── collect_data.py       # Script para la Extracción de datos crudos.
-├── transform_data.py     # Script para la Transformación y limpieza de datos.
-├── load_data.py          # Script para la Carga de datos limpios a la base de datos.
-├── requirements.txt      # Lista de dependencias de Python del proyecto.
-├── .gitignore            # Archivo para ignorar archivos y carpetas en Git.
-├── raw_data/             # Contiene los datos extraídos en su formato original.
-│   └── social_media__data.csv
+├── collect_data.py         # Script para la Extracción de datos crudos.
+├── transform_data.py       # Script para la Transformación y limpieza de datos.
+├── load_data.py            # Script para la Carga de datos limpios a la base de datos.
+├── requirements.txt        # Lista de dependencias de Python del proyecto.
+├── .gitignore              # Archivo para ignorar archivos y carpetas en Git.
+├── raw_data/               # Contiene los datos extraídos en su formato original.
+│   ├── social_media_data.csv
 │   └── social_media_data.json
-├── cleaned_data/         # Contiene los datos después de la fase de transformación.
+├── cleaned_data/           # Contiene los datos después de la fase de transformación.
 │   └── clean_social_media_data.csv
-└── database/             # Contiene el archivo de la base de datos SQLite.
-└── social_media_data.db
+└── database/               # Contiene el archivo de la base de datos SQLite.
+    └── social_media_data.db
+```
 
 ## ⚙️ Cómo Ejecutar el Proyecto
 
